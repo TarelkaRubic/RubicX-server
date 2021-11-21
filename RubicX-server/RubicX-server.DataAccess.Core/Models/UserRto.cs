@@ -11,6 +11,8 @@ namespace RubicX_server.DataAccess.Core.Models
         public string FirstName { get; set; }
         public string Login { get; set; }
         public string Email { get; set; }
+        public bool IsBoy { get; set; }
+        [Required, MinLength(7)] public string Password { get; set; }
         [Required] public string PhoneNumberPrefix { get; set; }
         [Required] public string PhoneNumber { get; set; }
         public string LastName { get; set; }
@@ -18,6 +20,11 @@ namespace RubicX_server.DataAccess.Core.Models
         public DateTimeOffset Birthday  { get; set; }
         public string AvatarUrl { get; set; }
         [Required] public UserRoleRto Role { get; set; }
+        
+        [NotMapped] public string GetFullName
+        {
+            get => FirstName + " " + LastName + " " + Patronymic;
+        }
 
     }
 }
