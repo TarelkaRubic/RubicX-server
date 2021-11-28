@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RubicX.BusinessLogic.Core.Models
 {
-    class UserUpdateBlo
+    public class UserUpdateBlo
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

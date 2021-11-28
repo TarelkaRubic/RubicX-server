@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubicX.BusinessLogic", "Rub
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RubicX.BusinessLogic.Core", "RubicX.BusinessLogic.Core\RubicX.BusinessLogic.Core.csproj", "{DFE57730-A259-4B94-A50A-ED5608A652D9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{BE4E378A-5086-40B1-973D-DD760D4DEE97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{538D66DE-9784-4A84-BDB0-51BD471579C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{DFE57730-A259-4B94-A50A-ED5608A652D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFE57730-A259-4B94-A50A-ED5608A652D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFE57730-A259-4B94-A50A-ED5608A652D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{538D66DE-9784-4A84-BDB0-51BD471579C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{538D66DE-9784-4A84-BDB0-51BD471579C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{538D66DE-9784-4A84-BDB0-51BD471579C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{538D66DE-9784-4A84-BDB0-51BD471579C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{574963D0-8647-4AA2-B486-2AE485248AD1} = {CF5B46F5-0175-41D7-8521-CEACEAC6F555}
 		{48C07EDB-FE74-4774-9B50-E69E706FCF70} = {5DD77754-AC2A-4C89-9D96-C41F6F17ED4D}
 		{DFE57730-A259-4B94-A50A-ED5608A652D9} = {5DD77754-AC2A-4C89-9D96-C41F6F17ED4D}
+		{538D66DE-9784-4A84-BDB0-51BD471579C2} = {BE4E378A-5086-40B1-973D-DD760D4DEE97}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C259556B-8265-464F-938C-3B1656240BFD}

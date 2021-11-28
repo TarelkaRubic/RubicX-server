@@ -10,5 +10,13 @@ namespace RubicX.BusinessLogic.Core.Interfaces
     public interface IUserService
     {
         Task<UserInformationBlo> RegisterWithPhone(string numberPrefix, string sumNumber, string password);
+        Task<UserInformationBlo> AuthWithPhone(string numberPrefix, string sumNumber, string password);
+        Task<UserInformationBlo> AuthWithEmail(string email, string password);
+        Task<UserInformationBlo> AuthWithLogin(string login, string password);
+        Task<UserInformationBlo> Get(int userId);
+        Task<UserInformationBlo> Update(UserUpdateBlo userUpdateBlo, string numberPrefix, string sumNumber, string password);
+        Task<bool> DoesExist(string numPrefix, string sumNumber);
+
+
     }
 }

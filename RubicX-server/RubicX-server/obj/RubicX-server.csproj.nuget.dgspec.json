@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX-server\\RubicX-server\\RubicX-server\\RubicX-server.csproj": {}
+    "C:\\Users\\StudentDev\\Desktop\\Новая папка\\RubicX-server\\RubicX-server\\RubicX-server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX-server\\RubicX-server\\RubicX-server\\RubicX-server.csproj": {
+    "C:\\Users\\StudentDev\\Desktop\\Новая папка\\RubicX-server\\RubicX-server\\RubicX-server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX-server\\RubicX-server\\RubicX-server\\RubicX-server.csproj",
+        "projectUniqueName": "C:\\Users\\StudentDev\\Desktop\\Новая папка\\RubicX-server\\RubicX-server\\RubicX-server.csproj",
         "projectName": "RubicX-server",
-        "projectPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX-server\\RubicX-server\\RubicX-server\\RubicX-server.csproj",
+        "projectPath": "C:\\Users\\StudentDev\\Desktop\\Новая папка\\RubicX-server\\RubicX-server\\RubicX-server.csproj",
         "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\StudentDev\\Documents\\GitHub\\RubicX-server\\RubicX-server\\RubicX-server\\obj\\",
+        "outputPath": "C:\\Users\\StudentDev\\Desktop\\Новая папка\\RubicX-server\\RubicX-server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
